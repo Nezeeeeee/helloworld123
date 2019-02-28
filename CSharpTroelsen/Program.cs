@@ -26,13 +26,14 @@ namespace CSharpTroelsen
             {
                 Console.WriteLine("Пароль не верен!");
             }
-
+            Console.WriteLine("Новаястрока");
 
             string num1 = Console.ReadLine();
             string num2 = Console.ReadLine();
 
             Console.WriteLine(Convert.ToInt32(num1) + Convert.ToInt32(num2));
         }
+        
         
     }
 
