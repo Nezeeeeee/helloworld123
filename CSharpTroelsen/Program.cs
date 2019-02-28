@@ -10,28 +10,14 @@ namespace CSharpTroelsen
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world!");
-
-            string input = Console.ReadLine();
-            if (input == "123")
-            {
-                Console.WriteLine("Пароль верен!");
-
-            }
-            else if (input == "321")
-            {
-                Console.WriteLine("Наоборот!");
-            }
-            else
-            {
-                Console.WriteLine("Пароль не верен!");
-            }
-            Console.WriteLine("Новаястрока");
+            Console.WriteLine("Начало программы!");
 
             string num1 = Console.ReadLine();
             string num2 = Console.ReadLine();
 
             Console.WriteLine(Convert.ToInt32(num1) + Convert.ToInt32(num2));
+
+            Console.WriteLine("Начало программы!");
         }
         
         
